@@ -81,11 +81,27 @@
 					transform: scale(1.1);
 				}
 			}
+			::-webkit-scrollbar {
+				width: 10px;
+			}
+			::-webkit-scrollbar-thumb {
+				background: rgba(225, 127, 35, 0.3);
+				border-radius: 99999999990px;
+			}
 		</style>
 	</head>
 	<body>
 		<div class="relative h-screen w-screen overflow-hidden">
-			<div class="relative h-full w-full">
+			<div
+				class="absolute top-0 left-0 h-full w-full"
+				style="
+					background: url(https://www.pngitem.com/pimgs/m/525-5255852_transparent-colorful-bubbles-png-png-download.png);
+					background-position: center;
+					background-size: cover;
+					background-repeat: no-repeat;
+				"
+			></div>
+			<div class="relative h-full w-full bg-white/95 backdrop-blur-3xl">
 				<div
 					class="absolute top-0 left-0 h-screen w-screen z-40 bg-gray-100/10 backdrop-blur-2xl overflow-y-auto hugePopUp duration-500 hidden"
 				>
@@ -268,9 +284,9 @@
 						<div
 							class="relative h-full w-full flex items-center justify-between xl:px-32 lg:px-32 md:px-16 sm:px-8 px-4 duration-300"
 						>
-							<div class="relative">
-								<div class="relative font-extrabold text-sm">Sumans</div>
-							</div>
+							<a href="index.html" class="relative">
+								<div class="relative font-extrabold text-sm">Dipshikha</div>
+							</a>
 							<div class="relative">
 								<div
 									class="relative flex items-center xl:gap-[100px] lg:gap-[100px] md:gap-[80px] sm:gap-[60px] gap-[30px]"
@@ -317,7 +333,7 @@
 											<div
 												class="relative h-auto w-auto text-7xl font-extrabold text-yellow-500 onloadAnimation duration-500"
 											>
-												Suman Limbu
+												Dipshikha Neupane
 											</div>
 										</div>
 										<div
@@ -608,7 +624,7 @@
 										</div>
 										<img
 											style="transform: rotateY(180deg)"
-											src="file:///home/groot/Downloads/abhisheklimbu-removebg-preview.png"
+											src="./photos/dpka3-removebg-preview.png"
 											class="relative h-[500px] w-auto"
 										/>
 									</div>
@@ -2286,7 +2302,7 @@
 									<div
 										class="relative xl:text-sm lg:text-sm md:text-sm sm:text-sm text-xs font-light text-gray-600"
 									>
-										© 2022 SUman. All rights reserved.
+										© 2022 Dipshikha. All rights reserved.
 									</div>
 								</div>
 								<div class="relative flex gap-4">
